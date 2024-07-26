@@ -13,6 +13,9 @@
     <Compile Update="Admin.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="AppointmentPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Appointments.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -25,10 +28,10 @@
     <Compile Update="DentistDashboard.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="DoctorLoginPage.xaml.cs">
+    <Compile Update="DoctorLogin.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="fAQ.xaml.cs">
+    <Compile Update="DoctorLoginPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Login.xaml.cs">
@@ -54,6 +57,9 @@
     <Page Update="Admin.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="AppointmentPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Appointments.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -66,10 +72,10 @@
     <Page Update="DentistDashboard.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="DoctorLoginPage.xaml">
+    <Page Update="DoctorLogin.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="fAQ.xaml">
+    <Page Update="DoctorLoginPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Login.xaml">

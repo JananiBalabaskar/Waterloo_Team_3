@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digident_Group3", "Digident
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigidentTest_Group3", "..\..\..\Downloads\DigidentTest_Group3\DigidentTest_Group3\DigidentTest_Group3.csproj", "{AADE7266-4838-4BA0-BAC2-0CBED1B429BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "..\Backend\Backend.csproj", "{0268CB8A-A17F-4B3E-875F-3B4D578FC604}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digidentapp", "..\..\..\Downloads\Digidentapp-master (1)\Digidentapp-master\Digidentapp.csproj", "{2377DB66-3C35-41EF-88CC-C70266BF9527}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{AADE7266-4838-4BA0-BAC2-0CBED1B429BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AADE7266-4838-4BA0-BAC2-0CBED1B429BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AADE7266-4838-4BA0-BAC2-0CBED1B429BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0268CB8A-A17F-4B3E-875F-3B4D578FC604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0268CB8A-A17F-4B3E-875F-3B4D578FC604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0268CB8A-A17F-4B3E-875F-3B4D578FC604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0268CB8A-A17F-4B3E-875F-3B4D578FC604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2377DB66-3C35-41EF-88CC-C70266BF9527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2377DB66-3C35-41EF-88CC-C70266BF9527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2377DB66-3C35-41EF-88CC-C70266BF9527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2377DB66-3C35-41EF-88CC-C70266BF9527}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

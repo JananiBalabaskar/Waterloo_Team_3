@@ -52,6 +52,7 @@ namespace Digident_Group3
         internal void SubmitButton_Click(object sender, RoutedEventArgs e)
         {
             ValidateEmail();
+            ValidatePassword();
             ValidateFirstName();
             ValidateLastName();
             ValidateDateOfBirth();
@@ -262,6 +263,13 @@ namespace Digident_Group3
             if (address.Length > 100)
             {
                 AddressErrorText.Text = "Address cannot exceed 100 characters.";
+                return;
+            }
+
+            string pattern = @"^\d+\s+[a-zA-Z]+(\s[a-zA-Z]+)*\s+(?i:St|Ave|Blvd|Rd|Dr)$";
+            if (!Regex.IsMatch(address, pattern))
+            {
+                AddressErrorText.Text = "Invalid address format. Example: 123 Albert St";
                 return;
             }
 

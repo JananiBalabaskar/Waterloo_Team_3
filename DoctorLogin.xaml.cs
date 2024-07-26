@@ -16,13 +16,25 @@ using System.Windows.Shapes;
 namespace Digident_Group3
 {
     /// <summary>
-    /// Interaction logic for fAQ.xaml
+    /// Interaction logic for DoctorLogin.xaml
     /// </summary>
-    public partial class fAQ : Page
+    public partial class DoctorLogin : Page
     {
-        public fAQ()
+        public DoctorLogin()
         {
             InitializeComponent();
+        }
+
+        private void Homebutton(object sender, RoutedEventArgs e)
+        {
+            MainWindow window1 = new MainWindow();
+            window1.Show();
+            Window.GetWindow(this)?.Close();
+        }
+
+        private void Loginbutton(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

@@ -47,10 +47,9 @@ namespace Digident_Group3
         }
         private void Booknow(object sender, RoutedEventArgs e)
         {
-
+            Register registerPage = new Register(_databaseService, _messageBoxService);
+            ChangePage(registerPage);
         }
-
-       
 
         private void aboutus(object sender, RoutedEventArgs e)
         {
